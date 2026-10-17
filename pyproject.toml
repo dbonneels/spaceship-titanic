@@ -1,0 +1,25 @@
+[project]
+name = "spaceship-titanic"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "catboost>=1.2.10",
+    "colorama>=0.4.6",
+    "kaggle>=2.2.4",
+    "lightgbm>=4.7.0",
+    "matplotlib>=3.11.2",
+    "missingno>=0.5.2",
+    "numpy>=2.5.4",
+    "pandas>=3.0.6",
+    "scikit-learn>=1.9.1",
+    "xgboost>=3.4.1",
+]
+
+[project.scripts]
+spaceship-titanic = "spaceship_titanic:main"
+
+[build-system]
+requires = ["uv_build>=0.12.12,<0.13.0"]
+build-backend = "uv_build"
