@@ -8,3 +8,8 @@ wheels/
 
 # Virtual environments
 .venv
+
+# Artefacts générés par les runs (régénérés par 03_train.py / 05_predict.py)
+catboost_info/
+models/*.pkl
+submission.csv
